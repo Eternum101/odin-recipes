@@ -1,0 +1,87 @@
+body {
+    background-color: #EEA243;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* Styling for the recipes on the index page */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #D5D5D7;
+  }
+  
+  .gallery-item {
+    margin: 50px;
+    position: relative;
+  }
+  
+  .gallery-item img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #EEA243;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .gallery-item:hover img {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+  
+  .caption {
+    position: absolute;
+    width: 100%;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  /* Styling for recipe pages */
+
+.recipe {
+    margin: 50px;
+    position: relative;
+    color: white;
+}
+  
+.recipe img {
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe div {
+    background-color: #D5D5D7;
+    padding: 5px;
+    color: black;
+}
+
+.recipe p {
+    font-size: 18px;
+}
+
+.recipe ul {
+    text-align: justify;
+    display: inline-block;
+}
+
+.recipe ol {
+    text-align: justify;
+    display: inline-block;
+}
+  
