@@ -55,7 +55,11 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #D5D5D7;
+    position: absolute;
+    top: 500px;
+    left: 380px;
+    padding-top: 15px;
+    padding-bottom: 50px;
   }
   
   .gallery-item {
@@ -69,8 +73,13 @@ img {
     height: 250px;
     object-fit: cover;
     border: 5px solid #EEA243;
+    border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
+  }
+
+  .gallery-item img {
+    opacity: 1;
   }
   
   .gallery-item:hover img {
@@ -81,8 +90,8 @@ img {
   .caption {
     position: absolute;
     width: 100%;
-    color: black;
-    font-size: 18px;
+    color: white;
+    font-size: 18.5px;
     font-weight: bold;
     text-align: center;
     padding-top: 15px;
